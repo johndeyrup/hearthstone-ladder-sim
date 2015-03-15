@@ -16,9 +16,9 @@ def play_a_game(win_chance):
 
 '''
 Keep playing games until player receives
-97 stars. Every time a player wins a game
-he receives a star unless he has won the 
-two previous games. In this case he will
+96 stars. Every time a player wins a game
+he receives 1 star unless he has won the 
+last 2 games in a row. In this case he will
 two stars as long he has less than 60 stars.
 A player loses a star every time he loses a
 game as long as he has more than 10 stars.
